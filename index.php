@@ -9,14 +9,16 @@
         <link rel="stylesheet" href="dice.css">
     </head>
     <body>
-        <div class="ruta">
-            
+        <div id="sak">
+            <div id="ruta1" class="ruta"></div>
+            <div id="ruta2" class="ruta"></div>
+            <div id="ruta3" class="ruta"></div>
+            <div id="ruta4" class="ruta"></div>
         </div>
         <form>
-            <input class="radioBtn" type="radio" name="antal" value="1"> 1 Tärning<br />
-            <input class="radioBtn" type="radio" name="antal" value="2"> 2 Tärningar<br />
-            <input class="radioBtn" type="radio" name="antal" value="3"> 3 Tärningar<br />
-            <input class="radioBtn" type="radio" name="antal" value="4"> 4 Tärningar<br />
+            <input class="radioBtn" type="radio" name="antal" value="1"> 1<br />
+            <input class="radioBtn" type="radio" name="antal" value="2"> 2<br />
+            <input class="radioBtn" type="radio" name="antal" value="3"> 3<br />
             
             <br />
             <input type="button" name="button" value="Rulla" class="button">
