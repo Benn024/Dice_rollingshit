@@ -10,10 +10,7 @@
     </head>
     <body>
         <div id="sak">
-            <div id="ruta1" class="ruta"></div>
-            <div id="ruta2" class="ruta"></div>
-            <div id="ruta3" class="ruta"></div>
-            <div id="ruta4" class="ruta"></div>
+            
         </div>
         <form>
             <input class="radioBtn" type="radio" name="antal" value="1"> 1<br />

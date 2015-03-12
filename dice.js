@@ -12,6 +12,12 @@ function addListener() {
         var nrDice = getNrDice();
         var diceRoll = getDiceRoll(nrDice);
         console.log(diceRoll);
+        
+        $( ".ruta" ).remove();
+        $.each(diceRoll, function(index, value){
+            $('#sak').append('<div class="ruta">'+value+'</div>');
+        });
+        
     });
 }
 
